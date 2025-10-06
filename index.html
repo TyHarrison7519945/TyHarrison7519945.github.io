@@ -11,11 +11,12 @@
          <nav>
            <h1>Ty's Amazing Website</h1>
            <ul id="nav-url">
-             <li class="nav-li">
-               <a href="index.html"> Home </a>
+             <li class="nav-li">               
+     <button class="tab-button active" onclick="openTab(event, 'tab1')">Home</button>
+    <button class="tab-button" onclick="openTab(event, 'tab2')">Portfolio</button>
              </li>
-             <li class="nav-li">
-               <a href="portfolio.html"> Portfolio </a>
+               <div id="tab2" class="tab-content active">
+                 <h2> My Portfolio</h2>
            </ul>
         </nav>
         
@@ -35,11 +36,13 @@
                 <ul>
                   <li>Baseball</li>
                   <li>Sports</li>
-                  <li>Traveling</li>
+                  <li>Traveling</li>                
               </ul>
             </div>
           </div>
+          <section>
         </main>
       </div>
+
   </body>
 </html>
